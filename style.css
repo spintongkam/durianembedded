@@ -1,7 +1,6 @@
 img {
     width: 100px;
     border: 10px;
-    float: left;
 }
 
 body {
@@ -13,8 +12,12 @@ main {
     margin-right: 20px;
 }
 
-h1 {
-    text-align: center;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
 }
 
 .navbar ul {
